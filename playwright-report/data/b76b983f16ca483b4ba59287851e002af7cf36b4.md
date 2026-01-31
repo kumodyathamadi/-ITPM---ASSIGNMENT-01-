@@ -1,0 +1,105 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Playwright logo Playwright" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Playwright logo" [ref=e9]
+          - generic [ref=e10]: Playwright
+        - link "Docs" [ref=e11] [cursor=pointer]:
+          - /url: /docs/intro
+        - link "API" [ref=e12] [cursor=pointer]:
+          - /url: /docs/api/class-playwright
+        - button "Node.js" [ref=e14] [cursor=pointer]
+        - link "Community" [ref=e15] [cursor=pointer]:
+          - /url: /community/welcome
+      - generic [ref=e16]:
+        - link "GitHub repository" [ref=e17] [cursor=pointer]:
+          - /url: https://github.com/microsoft/playwright
+        - link "Discord server" [ref=e18] [cursor=pointer]:
+          - /url: https://aka.ms/playwright/discord
+        - button "Switch between dark and light mode (currently system mode)" [ref=e20] [cursor=pointer]:
+          - img [ref=e21]
+        - button "Search (Ctrl+K)" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]:
+            - img [ref=e26]
+            - generic [ref=e28]: Search
+          - generic [ref=e29]:
+            - img [ref=e31]
+            - generic [ref=e33]: K
+  - main [ref=e35]:
+    - generic [ref=e37]:
+      - heading "This page is not available for Node.js." [level=1] [ref=e38]
+      - paragraph [ref=e39]: We could not find what you were looking for.
+  - contentinfo [ref=e40]:
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e44]: Learn
+          - list [ref=e45]:
+            - listitem [ref=e46]:
+              - link "Getting started" [ref=e47] [cursor=pointer]:
+                - /url: /docs/intro
+            - listitem [ref=e48]:
+              - link "Playwright Training" [ref=e49] [cursor=pointer]:
+                - /url: https://learn.microsoft.com/en-us/training/modules/build-with-playwright/
+                - text: Playwright Training
+                - img [ref=e50]
+            - listitem [ref=e52]:
+              - link "Learn Videos" [ref=e53] [cursor=pointer]:
+                - /url: /community/learn-videos
+            - listitem [ref=e54]:
+              - link "Feature Videos" [ref=e55] [cursor=pointer]:
+                - /url: /community/feature-videos
+        - generic [ref=e56]:
+          - generic [ref=e57]: Community
+          - list [ref=e58]:
+            - listitem [ref=e59]:
+              - link "Stack Overflow" [ref=e60] [cursor=pointer]:
+                - /url: https://stackoverflow.com/questions/tagged/playwright
+                - text: Stack Overflow
+                - img [ref=e61]
+            - listitem [ref=e63]:
+              - link "Discord" [ref=e64] [cursor=pointer]:
+                - /url: https://aka.ms/playwright/discord
+                - text: Discord
+                - img [ref=e65]
+            - listitem [ref=e67]:
+              - link "Twitter" [ref=e68] [cursor=pointer]:
+                - /url: https://twitter.com/playwrightweb
+                - text: Twitter
+                - img [ref=e69]
+            - listitem [ref=e71]:
+              - link "LinkedIn" [ref=e72] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/playwrightweb
+                - text: LinkedIn
+                - img [ref=e73]
+        - generic [ref=e75]:
+          - generic [ref=e76]: More
+          - list [ref=e77]:
+            - listitem [ref=e78]:
+              - link "GitHub" [ref=e79] [cursor=pointer]:
+                - /url: https://github.com/microsoft/playwright
+                - text: GitHub
+                - img [ref=e80]
+            - listitem [ref=e82]:
+              - link "YouTube" [ref=e83] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg
+                - text: YouTube
+                - img [ref=e84]
+            - listitem [ref=e86]:
+              - link "Blog" [ref=e87] [cursor=pointer]:
+                - /url: https://dev.to/playwright
+                - text: Blog
+                - img [ref=e88]
+            - listitem [ref=e90]:
+              - link "Ambassadors" [ref=e91] [cursor=pointer]:
+                - /url: /community/ambassadors
+      - generic [ref=e93]: Copyright © 2026 Microsoft
+```

@@ -1,0 +1,248 @@
+[
+  {
+    "TC ID": "Pos_Fun_0001",
+    "Test case name": "Convert a short daily greeting phrase",
+    "Input length type": "S",
+    "Input": "oyaa kohee idhandha aavee?",
+    "Expected output": "ඔයා කොහේ ඉදන්ද ආවේ?"
+  },
+  {
+    "TC ID": "Pos_Fun_0002",
+    "Test case name": "Long mixed-language input with slang + typo causes incorrect conversion",
+    "Input length type": "M",
+    "Input": "mata heta udhee 10ta vagee maharagamata yanna thiyanavaa ban , ee hindhaa mama adha komahari komahari mee paper eka ivara karaganna balanna oonii naethnam heta physics class ekata gihin baaradhenna vidhiyak naehaene....",
+    "Expected output": "මට හෙට උදේ 10ට වගේ මහරගමට යන්න තියනවා බන් , ඒ හින්දා මම අද කොමහරි කොමහරි මේ paper එක ඉවර කරගන්න බලන්න ඕනී නැත්නම් හෙට physics class එකට ගිහින් බාරදෙන්න විදියක් නැහැනෙ...."
+  },
+  {
+    "TC ID": "Pos_Fun_0003",
+    "Test case name": "Convert a short request phrase",
+    "Input length type": "L",
+    "Input": "amith: machan sureesh, adha kohedha yannee? sureeSh: adha nam vaeda tikak thiyenavaa ban. uBAta kohedha yanna thiyennee? amith: mee mama hithuvee tavun ekata gihin poddak kanna kiyalaa. uBAth enavadha? sureeSh: hoDHA adhahasak nee. vaeda tika ivara karalaa maath ennam kolloo. amith: ehenam havasa 5ta bus stand eka Laga set vemuu. sureeSh: okay ban. adha kaalekata passee aathal ekak ganna puluvan veyi. amith: aeththatama. yaaluvoo ekka innakotama thamayi maara nidhahasak dhaenennee. sureesh: hari hari, ehenam havasata setvemuu aruutath kiyannam mama dhineeshta",
+    "Expected output": "අමිත්: මචන් සුරේශ්, අද කොහෙද යන්නේ? සුරේෂ්: අද නම් වැඩ ටිකක් තියෙනවා බන්. උඹට කොහෙද යන්න තියෙන්නේ? අමිත්: මේ මම හිතුවේ ටවුන් එකට ගිහින් පොඩ්ඩක් කන්න කියලා. උඹත් එනවද? සුරේෂ්: හොඳ අදහසක් නේ. වැඩ ටික ඉවර කරලා මාත් එන්නම් කොල්ලෝ. අමිත්: එහෙනම් හවස 5ට bus stand එක ළග සෙට් වෙමූ. සුරේෂ්: okay බන්. අද කාලෙකට පස්සේ ආතල් එකක් ගන්න පුලුවන් වෙයි. අමිත්: ඇත්තටම. යාලුවෝ එක්ක ඉන්නකොටම තමයි මාර නිදහසක් දැනෙන්නේ. සුරේශ්: හරි හරි, එහෙනම් හවසට සෙට්වෙමූ අරූටත් කියන්නම් මම දිනේශ්ට"
+  },
+  {
+    "TC ID": "Pos_Fun_0004",
+    "Test case name": "Convert polite phrasing",
+    "Input length type": "S",
+    "Input": "karunaakaralaa meheta enavaa !",
+    "Expected output": "කරුනාකරලා මෙහෙට එනවා !"
+  },
+  {
+    "TC ID": "Pos_Fun_0005",
+    "Test case name": "Convert a compound sentence",
+    "Input length type": "M",
+    "Input": "mama gedhara yanavaa ban hithuvata vadaa godak raee velaa.",
+    "Expected output": "මම ගෙදර යනවා බන් හිතුවට වඩා ගොඩක් රෑ වෙලා."
+  },
+  {
+    "TC ID": "Pos_Fun_0006",
+    "Test case name": "Convert a short daily greeting phrase",
+    "Input length type": "M",
+    "Input": "ammoo saeehena kaalekinne hambunee komadha ithin",
+    "Expected output": "අම්මෝ සෑහෙන කාලෙකින්නෙ හම්බුනේ කොමද ඉතින්"
+  },
+  {
+    "TC ID": "Pos_Fun_0007",
+    "Test case name": "Responses",
+    "Input length type": "S",
+    "Input": "hari, mama karannam ammaa.",
+    "Expected output": "හරි, මම කරන්නම් අම්මා."
+  },
+  {
+    "TC ID": "Pos_Fun_0008",
+    "Test case name": "Convert interrogative sentence",
+    "Input length type": "M",
+    "Input": "hiruni dhaekkadha apee tiktok video eka eka supiri nedha ?",
+    "Expected output": "හිරුනි දැක්කද අපේ tiktok video එක එක සුපිරි නේද ?"
+  },
+  {
+    "TC ID": "Pos_Fun_0009",
+    "Test case name": "Repeated word emphasis",
+    "Input length type": "M",
+    "Input": "man coding lessons tika baeluvaa tika tika ....... thava thiyanava ithin",
+    "Expected output": "man coding lessons ටික බැලුවා ටික ටික ....... තව තියනව ඉතින්"
+  },
+  {
+    "TC ID": "Pos_Fun_0010",
+    "Test case name": "Tense variation future",
+    "Input length type": "M",
+    "Input": "api next week eke ayiyage manamaali balanna yanavaa",
+    "Expected output": "අපි next week eke අයියගෙ මනමාලි බලන්න යනවා"
+  },
+  {
+    "TC ID": "Pos_UI_0011",
+    "Test case name": "Tense variation future",
+    "Input length type": "S",
+    "Input": "heta apee malli AL exam ekata yanavaa.",
+    "Expected output": "හෙට අපේ මල්ලි AL exam එකට යනවා."
+  },
+  {
+    "TC ID": "Pos_UI_0012",
+    "Test case name": "Sinhala output updates automatically in real-time",
+    "Input length type": "M",
+    "Input": "oyaa adha office giya naedhdha kiyala mata ahanna hithuna mokadha uba godak busy vidhihatane hitiyee.",
+    "Expected output": "ඔයා අද office ගිය නැද්ද කියල මට අහන්න හිතුන මොකද උබ ගොඩක් busy විදිහටනෙ හිටියේ."
+  },
+  {
+    "TC ID": "Pos_UI_0013",
+    "Test case name": "Convert exclamatory sentence",
+    "Input length type": "L",
+    "Input": "oyaa saamaanya vidhihata kaalayak gaththoth oyaata hithenne naethi dheevaluth hithala balanna puluvan mokadha jiivithayata adhaala hodha thiiranaya ganna kalaya hari vaedhagath",
+    "Expected output": "ඔයා සාමාන්ය විදිහට කාලයක් ගත්තොත් ඔයාට හිතෙන්නෙ නැති දේවලුත් හිතල බලන්න පුලුවන් මොකද ජීවිතයට අදාල හොද තීරනය ගන්න කලය හරි වැදගත්"
+  },
+  {
+    "TC ID": "Pos_UI_0014",
+    "Test case name": "Clear input field",
+    "Input length type": "S",
+    "Input": "man pansal yano",
+    "Expected output": "man පන්සල් යනො"
+  },
+  {
+    "TC ID": "Pos_UI_0015",
+    "Test case name": "Day today conversitions.",
+    "Input length type": "M",
+    "Input": "kaanthi akkaa heta ennadha aehuva dharuva ekka ara sahanaadhaara dhenava kiyapu eka ganna",
+    "Expected output": "කාන්ති අක්කා හෙට එන්නද ඇහුව දරුව එක්ක අර සහනාදාර දෙනව කියපු එක ගන්න"
+  },
+  {
+    "TC ID": "Pos_UI_0016",
+    "Test case name": "Convert a compound sentence",
+    "Input length type": "M",
+    "Input": "handhiye traffic light eka gaava edhaa uu idhiya dhaekke",
+    "Expected output": "හන්දියෙ traffic light එක ගාව එදා ඌ ඉදිය දැක්කෙ"
+  },
+  {
+    "TC ID": "Pos_UI_0017",
+    "Test case name": "Convert interrogative sentence",
+    "Input length type": "L",
+    "Input": "podi ayya ekka kolaba yanava badu vagayak ganna kiiyata enna puluvan veidha dhan naee oyaa mokadha kiyanne hetama enavadha ???",
+    "Expected output": "පොඩි අය්ය එක්ක කොලබ යනව බඩු වගයක් ගන්න කීයට එන්න පුලුවන් වේද දන් නෑ ඔයා මොකද කියන්නෙ හෙටම එනවද ???"
+  },
+  {
+    "TC ID": "Pos_UI_0018",
+    "Test case name": "Sinhala output updates automatically in real-time",
+    "Input length type": "M",
+    "Input": "adoo vaedak karanna gaththanam eeka hariyata karapanko bQQ.",
+    "Expected output": "අඩෝ වැඩක් කරන්න ගත්තනම් ඒක හරියට කරපන්කො බං."
+  },
+  {
+    "TC ID": "Pos_UI_0019",
+    "Test case name": "Output font rendering",
+    "Input length type": "S",
+    "Input": "heta ape miss eyidha sure ekatama?",
+    "Expected output": "හෙට ape miss එයිද sure එකටම?"
+  },
+  {
+    "TC ID": "Pos_UI_0020",
+    "Test case name": "Tooltip shows full text",
+    "Input length type": "L",
+    "Input": "sapuni, heta chaamara gedhara yanava kivva. oyaata heta BOC ATM eka gaavata enna puluvanda ahuva 10.45am vage.",
+    "Expected output": "සපුනි, හෙට චාමර ගෙදර යනව කිව්ව. ඔයාට හෙට BOC ATM එක ගාවට එන්න පුලුවන්ඩ අහුව 10.45am වගෙ."
+  },
+  {
+    "TC ID": "Pos_UI_0021",
+    "Test case name": "Class logging URL issue",
+    "Input length type": "M",
+    "Input": "class ekata log vena URL eka incorrect kiyla vaetenvane haemavelema aeyi e?",
+    "Expected output": "class එකට log වෙන URL එක incorrect කිය්ල වැටෙන්වනෙ හැමවෙලෙම ඇයි එ?"
+  },
+  {
+    "TC ID": "Pos_UI_0022",
+    "Test case name": "Clear input field",
+    "Input length type": "S",
+    "Input": "mata sandwich  ekak oni",
+    "Expected output": "මට sandwich එකක් ඔනි"
+  },
+  {
+    "TC ID": "Neg_Fun_0023",
+    "Test case name": "Convert negative sentence",
+    "Input length type": "S",
+    "Input": "Ape kolla ehema karanne naee",
+    "Expected output": "Ape කොල්ල එහෙම කරන්නේ නෑ"
+  },
+  {
+    "TC ID": "Neg_Fun_0024",
+    "Test case name": "Convert negative sentence",
+    "Input length type": "L",
+    "Input": "oyagee ATM card no eka kiynana balanna eka haridha kiyla. But when it wrong mata karanna dheyak naetha.",
+    "Expected output": "ඔයගේ ATM card නො එක කිය්නන බලන්න එක හරිද කිය්ල. But when it wrong මට කරන්න දෙයක් නැත."
+  },
+  {
+    "TC ID": "Neg_Fun_0025",
+    "Test case name": "Sinhala output updates automatically in real-time",
+    "Input length type": "M",
+    "Input": "mama ee paeththa baladhdhi eyaa 😎 mehema hitiye.",
+    "Expected output": "මම ඒ පැත්ත බලද්දි එයා 😎 මෙහෙම හිටියෙ."
+  },
+  {
+    "TC ID": "Neg_Fun_0026",
+    "Test case name": "Slang handling",
+    "Input length type": "S",
+    "Input": "Thanks machan ubata pin",
+    "Expected output": "Thanks මචන් උබට pin"
+  },
+  {
+    "TC ID": "Neg_Fun_0027",
+    "Test case name": "Imoji input",
+    "Input length type": "S",
+    "Input": "mama 🏠 yanavaa",
+    "Expected output": "මම 🏠 යනවා"
+  },
+  {
+    "TC ID": "Neg_Fun_0028",
+    "Test case name": "Invalid punctuation sequence",
+    "Input length type": "S",
+    "Input": "mama  ?? Aruth ekka yanavaa 5ta vithara .",
+    "Expected output": "මම  ?? අරුත් එක්ක යනවා 5ට විතර ."
+  },
+  {
+    "TC ID": "Neg_Fun_0029",
+    "Test case name": "Invalid characters",
+    "Input length type": "L",
+    "Input": "upul nayanaa ekka // yanavaluu matath ekka kivva . Man baee kivva ban heta lectures ne test ekak thiynava kiyala kivva giya sathiye.",
+    "Expected output": "උපුල් නයනා එක්ක // යනවලූ මටත් එක්ක කිව්ව . Man බෑ කිව්ව බන් හෙට lectures නේ test එකක් තිය්නව කියල කිව්ව ගිය සතියෙ."
+  },
+  {
+    "TC ID": "Neg_Fun_0030",
+    "Test case name": "Unsupported emoji input",
+    "Input length type": "S",
+    "Input": "📚 Meka Book Store ekak",
+    "Expected output": "📚 මේක Book Store එකක්"
+  },
+  {
+    "TC ID": "Neg_UI_0031",
+    "Test case name": "UI breaks with unsupported font",
+    "Input length type": "S",
+    "Input": "ayiyoo deyyane",
+    "Expected output": "අයියෝ දෙය්යනෙ"
+  },
+  {
+    "TC ID": "Neg_UI_0032",
+    "Test case name": "Text overflow with small window",
+    "Input length type": "M",
+    "Input": "oya oya oya oya oya oya oya oya oya oya oya oya oya oya oya oya oya oya oya oya oya oya oya oya oya oya oya oya oya oya",
+    "Expected output": "ඔය ඔය ඔය ඔය ඔය ඔය ඔය ඔය ඔය ඔය ඔය ඔය ඔය ඔය ඔය ඔය ඔය ඔය ඔය ඔය ඔය ඔය ඔය ඔය ඔය ඔය ඔය ඔය ඔය"
+  },
+  {
+    "TC ID": "Neg_UI_0033",
+    "Test case name": "Sinhala output updates automatically in real-time",
+    "Input length type": "S",
+    "Input": "ee aeyi  uba gahannadha aah",
+    "Expected output": "ඒ ඇයි  උබ ගහන්නද aah"
+  },
+  {
+    "TC ID": "Neg_UI_0034",
+    "Test case name": "Negative UI behavior",
+    "Input length type": "M",
+    "Input": "Mama ehema click karannee naehae submit button eka form eka puraa naeththam.",
+    "Expected output": "මම එහෙම click කරන්නේ නැහැ submit button එක form එක පුරා නැත්තම්."
+  },
+  {
+    "TC ID": "Neg_UI_0035",
+    "Test case name": "Negative UI behavior",
+    "Input length type": "M",
+    "Input": " “Next” button eka press karanna puluvan ne last page ekata ivara unaama.",
+    "Expected output": " “Next” button එක press කරන්න පුලුවන් නේ last page එකට ඉවර උනාම."
+  }
+]
+
